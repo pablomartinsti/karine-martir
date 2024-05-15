@@ -6,10 +6,7 @@ const myObserver = new IntersectionObserver((entries) => {
 
         if (entry.isIntersecting === true) {
             entry.target.classList.add('show')
-        } else {
-            
-
-        }
+        } 
     })
 
 })
