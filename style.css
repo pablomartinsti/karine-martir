@@ -317,10 +317,6 @@ textarea {
 
 @media (max-width:950px) {
 
-    .caixa-home{
-        margin-top: 40px;
-    }
-
     .header section{
         justify-content: space-between;
         max-width: 800px;
@@ -334,6 +330,7 @@ textarea {
 
     .caixa-home section {
         max-width: 800px;
+        margin-top: 40px;
     }
 
     .home h3 {
