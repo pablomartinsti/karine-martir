@@ -320,7 +320,12 @@ textarea {
     .header section{
         justify-content: space-between;
         max-width: 800px;
+        height: 70px;
     
+    }
+    .logo {
+        width: 90px;
+        height: 50px;
     }
 
 
