@@ -317,6 +317,10 @@ textarea {
 
 @media (max-width:950px) {
 
+    .caixa-home{
+        margin-top: 40px;
+    }
+
     .header section{
         justify-content: space-between;
         max-width: 800px;
