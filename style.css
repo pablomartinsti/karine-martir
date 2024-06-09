@@ -243,7 +243,8 @@ footer {
     color: var(--color);
 }
 
-.contato p {
+.contato p,
+h6 {
     font-size: 2rem;
     line-height: 1.5;
     margin: 1rem 0;
@@ -314,25 +315,25 @@ textarea {
 }
 
 
-@media (max-width:1000px) {
+@media (max-width:950px) {
 
     .header {
         display: none;
     }
 
     .caixa-home section {
-        max-width: 390px;
+        max-width: 800px;
     }
 
     .home h3 {
         font-size: 4rem;
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
 
     }
 
     .home p {
         font-size: 2.7rem;
-        margin: 5rem 0;
+        margin: 4rem 0;
 
     }
 
@@ -340,48 +341,139 @@ textarea {
         padding: 2rem;
     }
 
-    .caixa-sobre .hidden .sobre {
-
-        display: block;
+    .caixa-sobre .hidden {
+        width: 800px;
     }
 
     .img-sobre img {
-        width: 350px;
-        height: 400px;
+        width: 400px;
+        height: 570px;
     }
 
-    .footer .show{
-        width: 390px;
+    .conteudo p {
+        font-size: 1.8rem;
+    }
+
+    .caixa-serviço .hidden {
+
+        max-width: 800px;
+    }
+
+    .footer .hidden {
+        width: 800px;
     }
 
     .caixa-contato {
-
-        display: block;
-
-    }
-
-    .caixa-contato p {
-
-        width: 350px;
-
-    }
-
-    .formulario {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
     }
 
     .formulario .forms {
+        width: 50rem;
 
-        width: 350px;
-        margin-top: 3rem;
     }
-
     .formulario input {
-        width: 155px;
+        width: 23rem;
+    }
+    textarea{
+        width: 50rem;
     }
 
-    textarea {
-        width: 350px;
-    }
 
-}
+
+    @media (max-width:450px) {
+
+        .header {
+            display: none;
+        }
+
+        .caixa-home section {
+            max-width: 350px;
+        }
+
+        .home h3 {
+            font-size: 4rem;
+            margin-bottom: 7rem;
+
+        }
+
+        .home p {
+            font-size: 2rem;
+            margin: 5rem 0;
+
+        }
+
+        .home a {
+            padding: 2rem;
+        }
+
+        .caixa-sobre .hidden {
+            max-width: 350px;
+        }
+
+        .caixa-sobre .hidden .sobre {
+
+            display: block;
+            max-width: 300px;
+        }
+
+        .img-sobre img {
+            height: 340px;
+            padding: 0;
+            width: 300px;
+        }
+
+        .caixa-serviço .hidden {
+            max-width: 800px;
+            padding: 5rem;
+        }
+
+        .conteudo {
+            padding: 2rem;
+            max-width: 350px;
+        }
+
+        .footer .show {
+            width: 350px;
+        }
+
+        .caixa-contato {
+            display: block;
+        }
+
+        .contato h3 {
+            font-size: 3rem;
+        }
+
+        .contato p,
+        h6 {
+            font-size: 1.5rem;
+            max-width: 300px;
+
+        }
+
+        .footer .show {
+            width: 350px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .formulario {
+            display: block;
+        }
+
+        .formulario .forms {
+
+            width: 300px;
+            margin-top: 3rem;
+        }
+
+        .formulario input {
+            width: 130px;
+        }
+
+        textarea {
+            width: 300px;
+        }
+    }
